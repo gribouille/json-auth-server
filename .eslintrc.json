@@ -1,0 +1,22 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+        "jsx": false
+    }
+  },
+  "extends": "standard",
+  "rules": {
+      "semi": 0,
+      "no-multi-spaces": "off",
+      "space-in-parens": "off",
+      "space-before-function-paren": "off",
+      "keyword-spacing": "off",
+      "camelcase": "off"
+  },
+  "env": {
+    "browser": false,
+    "node": true
+  }
+}

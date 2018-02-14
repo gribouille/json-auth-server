@@ -1,0 +1,48 @@
+{
+  "name": "json-auth-server",
+  "version": "0.1.0",
+  "description": "JSON Web token server with GraphQL API ",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "./script.sh dev",
+    "db-start": "./script.sh db_start",
+    "db-stop": "./script.sh db_stop",
+    "db-init": "./script.sh db_init",
+    "db-psql": "./script.sh db_psql",
+    "build": "./script.sh build",
+    "start": "./script.sh start",
+    "doc": "./script.sh doc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gribouille/json-auth-server"
+  },
+  "keywords": [
+    "javascript",
+    "jsonwebtoken",
+    "jwt",
+    "authentification",
+    "graphql",
+    "express",
+    "node"
+  ],
+  "author": "Gribouille",
+  "license": "SEE IN LICENSE",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-graphql": "^0.6.11",
+    "graphql": "^0.11.7",
+    "jsonwebtoken": "^8.1.0",
+    "morgan": "^1.9.0",
+    "pg": "^7.4.0",
+    "sanctuary": "^0.14.1",
+    "sanctuary-def": "^0.14.0",
+    "sanctuary-type-classes": "^7.1.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.0"
+  }
+}
