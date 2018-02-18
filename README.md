@@ -52,7 +52,7 @@ Note: to have a pretty json output, you can use `python -m json.tool`:
 > curl ... | python -m json.tool
 ```
 
-See the API documentation [here](./doc/html/index.html) to have the list of 
+See the API documentation [here](https://gribouille.github.io/documentation/jas/latest/) to have the list of 
 GraphQL queries and mutations to manage the users, groups and permissions.
 
 A set of examples is available [here](./EXAMPLES.md).
